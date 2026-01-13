@@ -1,4 +1,6 @@
 from django.db import models
+from datetime import timedelta
+from django.utils.timezone import now
 
 
 class PlatformAdmin(models.Model):
@@ -37,9 +39,14 @@ class Shop(models.Model):
 class ShopSubscription(models.Model):
     shop = models.ForeignKey(Shop, on_delete=models.CASCADE)
     subscription = models.ForeignKey(SubscriptionPlan, on_delete=models.CASCADE)
-    start_date = models.DateField()
-    end_date = models.DateField()
+    start_date = models.DateField(default=now)
+    end_date = models.DateField(blank=True)
     status = models.CharField(max_length=20)
+
+    def save(self, *args, **kwargs):
+        if not self.end_date:
+            self.end_date = self.start_date + timedelta(days=self.subscription.duration_days)
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return f"{self.shop.shop_name} - {self.subscription.plan_name}"
