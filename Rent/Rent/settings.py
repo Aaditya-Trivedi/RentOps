@@ -81,10 +81,16 @@ WSGI_APPLICATION = 'Rent.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'cloth_rental_master',
+        'USER': 'root',
+        'PASSWORD': '@Di13245',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
+
+DATABASE_ROUTERS = ['Rent.db_router.ShopDatabaseRouter']
 
 
 # Password validation

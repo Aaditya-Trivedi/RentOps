@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33603ecf-ab5b-451d-9370-cdb834dce78e" name="Changes" comment="">
+    <list default="true" id="33603ecf-ab5b-451d-9370-cdb834dce78e" name="Changes" comment="ragister all apps into settings.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rent/Rent/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/Rent/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,12 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1768196817781</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ragister all apps into settings.py">
+      <option name="closed" value="true" />
+      <created>1768277275587</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768277275587</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project started and link to git" />
     <MESSAGE value="ragisterd App in project (Rent/Settings.py)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ragisterd App in project (Rent/Settings.py)" />
+    <MESSAGE value="ragister all apps into settings.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="ragister all apps into settings.py" />
   </component>
 </project>
