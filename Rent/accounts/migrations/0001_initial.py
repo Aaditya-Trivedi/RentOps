@@ -86,7 +86,7 @@ class Migration(migrations.Migration):
                 ('start_date', models.DateField()),
                 ('end_date', models.DateField()),
                 ('status', models.CharField(max_length=20)),
-                ('shop', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='accounts.shop')),
+                ('shops', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='accounts.shops')),
                 ('subscription', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='accounts.subscriptionplan')),
             ],
         ),

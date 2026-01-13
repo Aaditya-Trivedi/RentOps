@@ -1,6 +1,6 @@
 class ShopDatabaseRouter:
     """
-    Routes database operations for shop-related apps
+    Routes database operations for shops-related apps
     """
 
     shop_apps = {'inventory', 'rentals', 'notifications'}

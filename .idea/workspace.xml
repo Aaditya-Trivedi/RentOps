@@ -6,13 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="33603ecf-ab5b-451d-9370-cdb834dce78e" name="Changes" comment="ragister all apps into settings.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rent/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rent/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/inventory/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/inventory/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/rentals/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/rentals/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/shops/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/shops/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/shops/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/shops/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
