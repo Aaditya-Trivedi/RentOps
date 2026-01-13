@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33603ecf-ab5b-451d-9370-cdb834dce78e" name="Changes" comment="ragister all apps into settings.py">
+      <change afterPath="$PROJECT_DIR$/Rent/accounts/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rent/inventory/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rent/inventory/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rent/templates/accounts/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rent/inventory/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/inventory/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rent/rentals/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/rentals/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rent/shops/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/shops/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rent/shops/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/shops/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/Rent/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/Rent/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/Rent/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/Rent/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/accounts/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rent/inventory/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rent/inventory/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -48,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -112,6 +120,17 @@
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project started and link to git" />
